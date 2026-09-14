@@ -1,0 +1,1 @@
+1. Create README.md file for taking notes
