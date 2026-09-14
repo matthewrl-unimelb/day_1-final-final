@@ -32,9 +32,9 @@ if st.session_state.name != "" and st.session_state.button_value == True:
     st.header("Question Three")
     client = OpenAI()
 
-    response = client.response.create(
+    response = client.responses.create(
         model="gpt-4o",
-        input=f"Greet {st.session_state.name}",
+        input=f"Greet {st.session_state.name} and make them feel unwelcome",
     )
 
     st.write(response.output_text)
