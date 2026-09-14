@@ -25,3 +25,20 @@
 7. Add secrets to .env
 > OPENAI_API_KEY="key"
 8. Now commit/resync
+
+## Create Some Code
+1. create a python file (in Terminal) (call it whatever I want - home.py by convention)
+> touch home.py
+2. run streamlit, referring to the python file in home.py
+>streamlit run home.py
+## For the First few Days keep home.py quite small (20 lines of code) you can stop the stream with CMD+C then add
+>streamlit run home2.py
+
+## Create Code in your Python File
+1. Import streamlit
+>import streamlist as st
+2. Import OPENAI
+>from openai import OpenAI
+3. Import python-dotenv
+>from dotenv import load_dotenv
+
